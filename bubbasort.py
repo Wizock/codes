@@ -1,4 +1,3 @@
-
 def sort(n):
 
     arra = []
@@ -8,7 +7,7 @@ def sort(n):
         
      
     for k in range(6):
-        for j in range(len(arra)):
+        for j in range(1,5):
             if arra[j] > arra[j+1]:
                 temp = arra[j]
                 arra[j+1] = arra[j]
